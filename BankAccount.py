@@ -13,6 +13,7 @@ class BankAccount():
             self.balance -= amount
             print("Amount Withdrawn:", amount)
         else: print("Insufficient funds")
+            #self.balance-10 = self.balance
     def get_balance():
 
     def add_interest():
