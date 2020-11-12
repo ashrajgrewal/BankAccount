@@ -17,6 +17,7 @@ class BankAccount():
     def get_balance():
         return (f"Hello! Your balance is {self.balance}")
     def add_interest():
-
+        interest = balance *  0.00083
+        balance = self.balance + interest
     def print_receipt():
         print(f"{self.name}{self.account_number}{self.routing_number}{self.balance})
